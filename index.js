@@ -1,9 +1,9 @@
-'use strict';
+// "use strict";
 // const name = "Alina";
 // let age = prompt('Введите ваш возраст');
 // console.log(typeof age);
 // console.log(age);
-// age = +age 
+// age = +age
 // age = Number(age);
 // console.log(typeof age);
 // console.log(age);
@@ -11,14 +11,13 @@
 // console.log(message);
 // let newMessage = `My age is ${age}`;
 // console.log(newMessage);
-// let newAnswer = confirm(`Вам есть 18?`); 
+// let newAnswer = confirm(`Вам есть 18?`);
 // console.log(answel);
 // console.log(typeof answel);
 // let newQestion = `Вы любите js?`;
 // let newAnswer = confirm (newQestion);
-// console.log(newQestion); 
+// console.log(newQestion);
 // console.log(newAnswer);
-
 
 // let isOpen;
 // console.log(isOpen);
@@ -64,7 +63,7 @@
 
 // const value = '555';
 // const numbe = Number(value);
-// console.log(numbe); 
+// console.log(numbe);
 
 // const blokWidth = '300.5px';
 // const width = Number.parseInt(blokWidth);
@@ -75,7 +74,6 @@
 // const width = Number.parseFloat(blokWidth);
 
 // console.log(width);
-
 
 // let number = prompt('Введите число');
 // number = Number(number);
@@ -94,12 +92,11 @@
 // const room = 716;
 // const type = 'VIP';
 
-  // // const massage = 'Гость' + firstName + ' ' + lastName + 'поселяется в ' + type + ' номер' + room;
-  // // console.log(massage);
+// // const massage = 'Гость' + firstName + ' ' + lastName + 'поселяется в ' + type + ' номер' + room;
+// // console.log(massage);
 
 // const massage = `Гость ${firstName} ${lastName} поселяется в ${type} номер ${room}`;
 // console.log(massage);
-
 
 // const superPassword = 'qwerty';
 // const userInput = prompt('Введите то что надо')
@@ -111,21 +108,19 @@
 
 // console.log(superPassword === nornalizeInput);
 
-
 // console.log(Boolean(0));
 // console.log(Boolean(NaN));
 // console.log(Boolean(null));
 // console.log(Boolean(undefined));
 // console.log(Boolean(''));
 // console.log(Boolean(false));
- 
+
 // const isOnline = true;
 // const isFrend = true;
 // const isDnd = false;
 
 // const canOpenChat = isOnline && isFriend && !isDnd;
 // console.log('canOpenChat: ' , canOpenChat);
-
 
 // const totalExpenses = 20000;
 // const payment = 500;
@@ -149,7 +144,6 @@
 
 // console.log(`Оформляем заказ на сумму ${finalAmount} со скидкой ${discount}%`);
 
-
 // const starts = 3;
 
 // if (starts === 1) {
@@ -165,7 +159,6 @@
 // } else {
 //     console.log('Ошибка ввода')
 // }
-
 
 // const starts = 4;
 // let result;
@@ -197,7 +190,6 @@
 
 // console.log(result);
 
-
 // const number = 5;
 // let total = 1;
 // let i = 1;
@@ -209,7 +201,6 @@
 // }
 
 // console.log(`Total = ${total}`);
-
 
 // let vova = {
 //   age: 16,
@@ -224,7 +215,6 @@
 //   alert(`Sorry`);
 // }
 
-
 // let vova = {
 //   age: 16,
 //   dad: "deputat"
@@ -236,7 +226,6 @@
 //   alert(`Sorry`);
 // }
 
-
 // let vova = {
 //   age: 16,
 //   dad: "deputat"
@@ -246,19 +235,17 @@
 //   ? alert("Go")
 //   : alert("Sorry");
 
-
 // const PASSWORD = "ilovejs";
 
 // let prompt1 = prompt("Enter your name: ");
 
 // if(prompt1) {
-//   prompt1 === PASSWORD 
+//   prompt1 === PASSWORD
 //   ? console.log("You re in")
 //   : console.log("Wrong password");
 // } else {
 //   alert('You have to enter the passvord!!!');
 // };
-
 
 // let cost;
 // const subscription = 'premium';
@@ -282,7 +269,6 @@
 
 // console.log(cost); // 500
 
-
 // let a = 1;
 // let b = 2;
 // let c = 3;
@@ -293,7 +279,6 @@
 
 // console.log(c);
 
-
 // let a = 0;
 // do {
 
@@ -303,11 +288,9 @@
 
 // } while (a<10);
 
-
 // for(let i = 0; i < 10; i++) {
 //   console.log(i);
 // }
-
 
 // for (let i = 0; i < 10; i ++) {
 //   if (i === 5) {
@@ -316,18 +299,15 @@
 //   }
 // }
 
-
 // const myAge = 15;
 // const neighbourAge = 16;
 // const c = myAge + neighbourAge;
 // console.log(c);
 
-
 // let r = 10;
 // let S = (3.14) * (Math.pow(r, 2));
 
 // console.log(S);
-
 
 // const age = 36;
 // const name = 'Roman';
@@ -335,7 +315,88 @@
 // const message = `My name is ${name}, I'm ${age} I study in ${placeOfStudy}.`;
 // console.log(message);
 
+// let counter = 0;
+
+// while (counter < 10) {
+//   console.log('counter: ', counter);
+//   counter += 1;
+// }
+
+// const name = prompt((message: "Введите имя"));
+// const lastName = prompt((message: "Введите фамилию"));
+// let age = 32;
+
+// console.log(`My name is ${name}, my surname ${lastName}, I'm ${age}.`);
 
 
+// const currentYear = 2020;
+// const birthYear = 1983;
+
+// const age = currentYear - birthYear;
+
+// console.log(age);
 
 
+// const a = 10;
+// const b = 5;
+// let c = 32;
+// c = c + a;
+
+// console.log(a + b);
+// console.log(a - b);
+// console.log(a * b);
+// console.log(a / b);
+// console.log(c);
+
+
+// const fullAge = 26;
+// const birthYear = 1993;
+// const currentYear = 2020;
+
+// const isFullAge = currentYear - birthYear >= fullAge;
+
+
+// const corseStatus = 'pending';
+
+// if (corseStatus === 'ready') {
+//     console.log('курс готов и его можно походить');
+// } else if (corseStatus === 'pending') {
+//     console.log('курс пока находится в процессе разработки');
+// } else {
+//     console.log('курс не получился');
+// }
+
+
+// const isReady = true;
+
+// if (isReady) {
+//     console.log('okay');
+// } else {
+//     console.log('badly');
+// }
+
+
+// const isReady = true;
+
+// isReady ? console.log('okay') : console.log('badly');   
+
+
+// for (let i = 10; i > 0; i -= 1) {
+//     console.log(i);
+// }
+
+// for (let i = 0; i < 10; i += 1) {
+//     console.log(i);
+// }
+
+
+// let userInput = prompt('Enter number');
+// userInput = Number(userInput);
+// let total = 0;
+
+// for (let i = 1; i <= userInput; i += 1) {
+//     console.log(i);
+//     total += i;
+// }
+
+// console.log('T otal = ${total}');
